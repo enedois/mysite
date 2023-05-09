@@ -3,4 +3,8 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. This is Home!")
+    return HttpResponse("Home")
+
+
+def about(request):
+    return HttpResponse("About")
