@@ -120,10 +120,6 @@ USE_TZ = True
 
 STATIC_URL = 'hello_world/static/'
 
-STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, 'static')
-    ]
-
 STATIC_ROOT =['/home/enedois/hello_world/static']
 
 # Default primary key field type
